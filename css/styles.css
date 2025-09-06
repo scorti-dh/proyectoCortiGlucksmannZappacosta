@@ -1,0 +1,104 @@
+/* Reseteo de Selectores */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ol {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Reseteo de Selectores */
+/* Font Header: Quicksand */
+
+header {
+    width: 100%;
+    margin: 0px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(148, 104, 159);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.horizontal {
+    width: 100%;
+    height: 7.5vh;
+    background: rgb(48, 48, 48);
+    border-bottom: 7.5px rgb(143, 0, 179) solid; 
+}
+
+.navSupHor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+form {
+    display: flex;
+    justify-content: space-around;  
+    width: 25%;
+}
+
+a {
+    color: rgb(148, 104, 159);
+}
+
+button {
+    color: rgb(148, 104, 159);
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+    border: 0 none;
+}
+
+
+.logoHome {
+    display: flex;
+    order: 0;
+    width: 33%;
+    align-self: flex;
+}
+
+.logo {
+    order: 0;
+    width: 22%;
+    height: auto;
+    margin: 0px 15% 0px;
+}
+
+.home {
+    order: 1;
+}
+
+.loginRegister {
+    display: flex;
+    order: 3;
+}
+
+.divForm {
+    order: 0;
+}
