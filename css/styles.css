@@ -23,40 +23,45 @@ a {
 }
 
 /* Reseteo de Selectores */
-/* Font Header: Quicksand */
+/* Font Header: Noto Sans */
 
 header {
     width: 100%;
     margin: 0px;
 
-    font-family: "Quicksand", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: large;
+
     color: rgb(148, 104, 159);
 
     display: flex;
     flex-direction: column;
+
 }
 
 
 .horizontal {
     width: 100%;
-    height: 7.5vh;
+    height: 9%;
     background: rgb(48, 48, 48);
-    border-bottom: 7.5px rgb(143, 0, 179) solid; 
+    border-bottom: rgb(144, 144, 144) solid 0.3vh;
 }
 
 .navSupHor {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-   
+    margin: 1%;
 }
 
 form {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
     width: 25%;
 }
 
@@ -66,10 +71,15 @@ a {
 
 button {
     color: rgb(148, 104, 159);
-    font-family: "Quicksand", sans-serif;
+
+    font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: large;
+
     border-radius: 5px;
     background-color: rgb(48, 48, 48);
     border: 0 none;
@@ -77,17 +87,17 @@ button {
 
 
 .logoHome {
-    display: flex;
     order: 0;
-    width: 33%;
-    align-self: flex;
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .logo {
     order: 0;
-    width: 22%;
+    width: 25%;
     height: auto;
-    margin: 0px 15% 0px;
 }
 
 .home {
@@ -95,10 +105,79 @@ button {
 }
 
 .loginRegister {
-    display: flex;
     order: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25vw;
+
 }
 
-.divForm {
+.login {
+    margin-right: 1vh;
+}
+
+.register {
+    margin-right: 1vh;
+}
+
+.search {
     order: 0;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    width: 50vw;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+
+.barra {
+    border-top-left-radius: 15px 50%;
+    border-bottom-left-radius: 15px 50%;
+    border-top-right-radius: 15px 50%;
+    border-bottom-right-radius: 15px 50%;
+    background-color: #626262;
+
+    padding: 2.5% 5%;
+    color: orange;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+
+.buscador {
+    display: flex;
+}
+
+.categorias {
+    width: 16.5%;
+    height: 100%;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 1.5% 2.5%;
+    align-self: stretch;
+
+    border-right: rgb(144, 144, 144) solid 0.3vh;
+}
+
+.categorias a {
+    color: orange;
+    width: 100%
+}
+
+.categorias li {
+    margin: 3% 0px;
 }
