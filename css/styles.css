@@ -236,10 +236,13 @@ article {
 
 .imgMainProductos {
     width: 100%;
+    border-radius: 5% 5%;
+    
 }
 
 .imgSecProductos {
     width: 75%;
+    border-radius: 5% 5%;
 }
 
 img {
