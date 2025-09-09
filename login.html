@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Font: Noto Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font: Noto Sans -->
+<body>
+     <header>
+        <nav class="horizontal">
+            <ul class="navSupHor">
+                <div class="logoHome">
+                    <li class="logo"> <img src="./img/logoNexo.svg" alt="" class=""> </li> <!-- Santos poner imagen -->
+                    <li class="home"> <a href="./index.html">Home</a></li>
+                </div>
+                <div class="loginRegister">
+                    <li class="login"> <a href="./login.html">Login</a> </li>
+                    <li class="register"> <a href="./register.html">Register</a></li>
+                </div>
+                <div class="search">
+                    <form action="./search-results.html" method="get">
+                        <label for="search-" class="labelBuscador"> </label>
+                        <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+                        <input id="search" type="text" name="Buscar" value="" class="barra">
+                        <button type="submit">Buscar</button>
+                </div>
+
+                </form>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <nav class="vertical seccionMain">
+            <ul class="categorias">
+                <li> <a href="./category.html">Beauty</a></li>
+                <li> <a href="./category.html">Fragances</a></li>
+                <li> <a href="./category.html">Furniture</a></li>
+                <li> <a href="./category.html">Groceries</a></li>
+                <li> <a href="./category.html">Home Decoration </a></li>
+                <li> <a href="./category.html">Kitchen Accessories</a></li>
+                <li> <a href="./category.html">Laptops</a></li>
+                <li> <a href="./category.html">Mens Shirts</a></li>
+                <li> <a href="./category.html">Mens Shoes</a></li>
+                <li> <a href="./category.html">Mens Watches</a></li>
+                <li> <a href="./category.html"> Mobile Accessories</a></li>
+                <li> <a href="./category.html">Motorcycle</a></li>
+                <li> <a href="./category.html">Skin Care</a></li>
+                <li> <a href="./category.html">Smartphones</a></li>
+                <li> <a href="./category.html">Sports Accessories</a></li>
+                <li> <a href="./category.html">Sunglasses</a></li>
+                <li> <a href="./category.html">Tablets</a></li>
+                <li> <a href="./category.html">Tops</a></li>
+                <li> <a href="./category.html">Vehicle</a></li>
+                <li> <a href="./category.html">Womens Bags</a></li>
+                <li> <a href="./category.html">Womens Dresses</a></li>
+                <li> <a href="./category.html">Womens Jewellery</a></li>
+                <li> <a href="./category.html">Womens Shoes</a></li>
+                <li> <a href="./category.html">Womens Watches</a></li>
+            </ul>
+        </nav>
+        <article class="form-login">
+            <form action="index.html" method="get">
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar">
+                </div>
+                <div>
+                    <label for="contra"> Contraseña:</label>
+                    <input id="contra" type="password" name="passwordUsuario" placeholder="......">
+                </div>
+                <button type="submit">ingresar</button>
+                <p>
+                <a href="./register.html">No tengo cuenta</a>
+                </p>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
