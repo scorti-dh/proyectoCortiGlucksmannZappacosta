@@ -209,11 +209,13 @@ main {
 
 .hdosProductos {
     margin-left: 5%;
+    font-size: 200%;
 }
 
 
 article {
     width: 25%;
+    padding: 1.5%;
 }
 
 
@@ -227,6 +229,8 @@ article {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 0px 1.5% 1.5% 1.5%;
+    border-bottom: rgb(144, 144, 144) solid 0.3vh;
 }
 
 .articleMainProductos {
@@ -247,4 +251,23 @@ article {
 
 img {
     align-self: center;
+}
+
+.boton {
+    height: 5vh;
+    padding: 2.5%;
+    border-radius: 10% 10% 10% 10%;
+    border: grey 1px solid;
+    background: rgb(88, 88, 88);
+    color: orange;
+}
+
+.pPrecio {
+    margin: 9% 0px;
+    font-size: larger;
+
+}
+
+.divPA {
+    padding: 1.5%;
 }
