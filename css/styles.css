@@ -197,13 +197,14 @@ main {
     margin: 5% 10%;
 }
 
-.seccionMain { /* Ambos div del Main INDEX*/
+.seccionMain {
+    /* Ambos div del Main INDEX*/
     width: 20%;
     background-color: rgb(48, 48, 48);
     color: rgb(144, 158, 236);
 }
 
-.secProductos{
+.secProductos {
     width: 100%;
 }
 
@@ -230,7 +231,6 @@ article {
     display: flex;
     justify-content: space-around;
     padding: 0px 1.5% 1.5% 1.5%;
-    border-bottom: rgb(144, 144, 144) solid 0.3vh;
 }
 
 .articleMainProductos {
@@ -241,7 +241,7 @@ article {
 .imgMainProductos {
     width: 100%;
     border-radius: 5% 5%;
-    
+
 }
 
 .imgSecProductos {
@@ -271,3 +271,72 @@ img {
 .divPA {
     padding: 1.5%;
 }
+
+footer {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    font-size: smaller;
+}
+
+footer h3 {
+    font-weight: normal;
+    font-size: small;
+}
+
+.divPAMV p {
+    color: rgb(179, 184, 212);
+}
+
+@media(max-width:768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divPrincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hdosProductos {
+        margin: 5% auto;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divMainProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .divPAMV article {
+        width: 50%;
+    }
+
+    .divMainProductos article {
+        width: 100%;    
+    }
+
+}
+
+/* Todo lo de arriba compone reseteo de atributos, Header, Footer e Index */
