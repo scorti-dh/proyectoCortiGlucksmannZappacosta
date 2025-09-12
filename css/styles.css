@@ -334,7 +334,7 @@ footer h3 {
     }
 
     .divMainProductos article {
-        width: 100%;    
+        width: 100%;
     }
 
 }
@@ -344,3 +344,32 @@ footer h3 {
 
 /* Tcss del categoty.html */
 
+.SecCategory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2%;
+    background: rgb(48, 48, 48);
+    font-size: 28px;
+
+}
+
+.SecCategory h1 {
+    color: rgb(144, 158, 236);
+
+}
+
+.articleCategory {
+    color: rgb(179, 184, 212);
+    width: 25%;
+    padding: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.imgCategory {
+    width: 100%;
+    border-radius: 8px;
+}
