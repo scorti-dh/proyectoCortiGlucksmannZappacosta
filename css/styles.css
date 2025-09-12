@@ -298,46 +298,6 @@ footer h3 {
     color: rgb(179, 184, 212);
 }
 
-@media(max-width:768px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .divPrincipal {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .hdosProductos {
-        margin: 5% auto;
-    }
-
-    article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .divMainProductos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .divPAMV article {
-        width: 50%;
-    }
-
-    .divMainProductos article {
-        width: 100%;
-    }
-
-}
 
 /* Todo lo de arriba compone reseteo de atributos, Header, Footer e Index */
 
