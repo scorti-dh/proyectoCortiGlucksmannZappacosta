@@ -17,18 +17,18 @@
 </head>
 
 <body>
-    <header>
-        <div>
+   <header>
+        <div class="bloqueHeader logoHome">
             <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
-            <a class="home" href="./index.html">Home</a></li>
+            <a href="./index.html">Home</a></li>
         </div>
         <nav>
-            <ul>
+            <ul class="bloqueHeader loginRegister">
                 <li class="login"> <a href="./login.html">Login</a> </li>
                 <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
-        <form action="./search-results.html" method="get">
+        <form action="./search-results.html" method="get" class="bloqueHeader">
             <label for="search-" class="labelBuscador"> </label>
             <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
@@ -36,6 +36,7 @@
         </form>
 
     </header>
+
 
     <form action="./login.html" method="get" class="formRegister">
         <div> <!-- Grupo del campo Email -->

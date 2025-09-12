@@ -75,6 +75,7 @@ header {
 
 .willy {
     display: flex;
+    background-color: rgb(48, 48, 48);
 }
 
 aside {
@@ -91,12 +92,6 @@ aside {
 
         font-size: large;
 }
-
-.mainSection1 {
-    width: 100%;
-}
-
-
 
 li {
     margin: 5% 0px;
@@ -148,8 +143,8 @@ main {
     font-optical-sizing: auto;
     font-weight: 450;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings:"wdth" 100;
+    flex-direction: column;
 
 }
 
@@ -197,7 +192,7 @@ footer h3 {
 
 /* Tcss del categoty.html */
 
-.SecCategory {
+.sections {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -207,11 +202,12 @@ footer h3 {
 }
 
 /*titulo*/
-.SecCategory h1 {
+.titulos {
     color: rgb(144, 158, 236);
     width: 100%;
     font-size: 28px;
     margin-bottom: 20px;
+    background-color: rgb(48, 48, 48);
 }
 
 .articleCategory {
@@ -222,7 +218,8 @@ footer h3 {
     width: 24%;
 }
 
-.img {
-    width: 12.5vw;
+img {
+    width: 200px;
     border-radius: 8px;
+  
 }
