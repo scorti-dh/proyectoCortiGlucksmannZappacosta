@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,29 +13,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Font: Noto Sans -->
-<body>
-     <header>
-        <nav class="horizontal">
-            <ul class="navSupHor">
-                <div class="logoHome">
-                    <li class="logo"> <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
-                    <li class="home"> <a href="./index.html">Home</a></li>
-                </div>
-                <div class="loginRegister">
-                    <li class="login"> <a href="./login.html">Login</a> </li>
-                    <li class="register"> <a href="./register.html">Register</a></li>
-                </div>
-                <div class="search">
-                    <form action="./search-results.html" method="get">
-                        <label for="search-" class="labelBuscador"> </label>
-                        <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
-                        <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
-                        <button type="submit">Buscar</button>
-                </div>
 
-                </form>
+<body>
+    <header>
+        <div>
+            <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
+            <a class="home" href="./index.html">Home</a></li>
+        </div>
+        <nav>
+            <ul>
+                <li class="login"> <a href="./login.html">Login</a> </li>
+                <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
+        <form action="./search-results.html" method="get">
+            <label for="search-" class="labelBuscador"> </label>
+            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+            <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
+            <button type="submit">Buscar</button>
+        </form>
+
     </header>
 
     <main>
@@ -69,16 +67,16 @@
         <article class="form-login"> <!-- Le hago una clase al form para cambairlo en el css -->
             <form action="index.html" method="get"> <!-- se envia a index-->
                 <div> <!-- Grupo del campo Email -->
-                    <label for="correo">Correo electrónico:</label> 
+                    <label for="correo">Correo electrónico:</label>
                     <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar">
                 </div>
                 <div> <!-- Grupo del campo Contraseña -->
                     <label for="contra"> Contraseña:</label>
                     <input id="contra" type="password" name="passwordUsuario" placeholder="......">
                 </div>
-                <button type="submit">ingresar</button>  <!-- Botón que envía el formulario -->
+                <button type="submit">ingresar</button> <!-- Botón que envía el formulario -->
                 <p>
-                <a href="./register.html">No tengo cuenta</a> <!-- Link a la página de registro -->
+                    <a href="./register.html">No tengo cuenta</a> <!-- Link a la página de registro -->
                 </p>
             </form>
         </article>
@@ -88,4 +86,5 @@
         <p> Todos los derechos reservados Copyright. © 2025</p>
     </footer>
 </body>
+
 </html>

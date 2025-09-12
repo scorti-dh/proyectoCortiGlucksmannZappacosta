@@ -17,27 +17,23 @@
 
 <body>
     <header>
-        <nav class="horizontal">
-            <ul class="navSupHor">
-                <div class="logoHome">
-                    <li class="logo"> <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
-                    <li class="home"> <a href="./index.html">Home</a></li>
-                </div>
-                <div class="loginRegister">
-                    <li class="login"> <a href="./login.html">Login</a> </li>
-                    <li class="register"> <a href="./register.html">Register</a></li>
-                </div>
-                <div class="search">
-                    <form action="./search-results.html" method="get">
-                        <label for="search-" class="labelBuscador"> </label>
-                        <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
-                        <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
-                        <button type="submit">Buscar</button>
-                </div>
-
-                </form>
+        <div>
+            <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
+            <a class="home" href="./index.html">Home</a></li>
+        </div>
+        <nav>
+            <ul>
+                <li class="login"> <a href="./login.html">Login</a> </li>
+                <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
+        <form action="./search-results.html" method="get">
+            <label for="search-" class="labelBuscador"> </label>
+            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+            <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
+            <button type="submit">Buscar</button>
+        </form>
+
     </header>
 
     <main>
@@ -83,12 +79,13 @@
                     <label for="repetir-contra"> Repetir contraseña</label>
                     <input id="repetir-contra" type="password" name="password-repeUsuario" placeholder="....">
                 </div>
-                <button type="submit">Registrarme</button>   <!-- Botón que envía el formulario -->
+                <button type="submit">Registrarme</button> <!-- Botón que envía el formulario -->
                 <div><!-- Checkbox de Termiunos y condiciones, el valor de value va a viajar cuando este marcado -->
-                <input type="checkbox" name="Aceptotérminosycondiciones" value="acepto">Acepto términos y condiciones
+                    <input type="checkbox" name="Aceptotérminosycondiciones" value="acepto">Acepto términos y
+                    condiciones
                 </div>
                 <p>
-                <a href="./login.html">Ya tengo una cuenta</a> <!-- Link a login -->
+                    <a href="./login.html">Ya tengo una cuenta</a> <!-- Link a login -->
                 </p>
             </form>
         </article>
