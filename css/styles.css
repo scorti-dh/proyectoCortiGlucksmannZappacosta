@@ -351,23 +351,23 @@ footer h3 {
     width: 100%;
     padding: 2%;
     background: rgb(48, 48, 48);
-    font-size: 28px;
-
 }
 
+/*titulo*/
 .SecCategory h1 {
     color: rgb(144, 158, 236);
-
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .articleCategory {
-    color: rgb(179, 184, 212);
-    width: 25%;
-    padding: 1.5%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(179, 184, 212);
+    width: 24%;
 }
-
 
 .imgCategory {
     width: 100%;
