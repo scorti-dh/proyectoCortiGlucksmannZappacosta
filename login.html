@@ -65,14 +65,14 @@
             </ul>
         </nav>
         <article class="form-login"> <!-- Le hago una clase al form para cambairlo en el css -->
-            <form action="index.html" method="get"> <!-- se envia a index-->
+            <form action="./index.html" method="get"> <!-- se envia a index-->
                 <div> <!-- Grupo del campo Email -->
                     <label for="correo">Correo electrónico:</label>
-                    <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar">
+                    <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar" value="" required>
                 </div>
                 <div> <!-- Grupo del campo Contraseña -->
                     <label for="contra"> Contraseña:</label>
-                    <input id="contra" type="password" name="passwordUsuario" placeholder="......">
+                    <input id="contra" type="password" name="passwordUsuario" placeholder="......" value="" required>
                 </div>
                 <button type="submit">ingresar</button> <!-- Botón que envía el formulario -->
                 <p>

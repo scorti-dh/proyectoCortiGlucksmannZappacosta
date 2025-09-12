@@ -69,19 +69,19 @@
             <form action="./login.html" method="get">
                 <div> <!-- Grupo del campo Email -->
                     <label for="correo">Correo electrónico:</label>
-                    <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar">
+                    <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar" value="" required>
                 </div>
                 <div><!-- Grupo del campo Contraseña -->
                     <label for="contra"> Contraseña:</label>
-                    <input id="contra" type="password" name="passwordUsuario" placeholder="....">
+                    <input id="contra" type="password" name="passwordUsuario" placeholder="...." value="" required>
                 </div>
                 <div><!-- Grupo del campo Repetir Contraseña -->
                     <label for="repetir-contra"> Repetir contraseña</label>
-                    <input id="repetir-contra" type="password" name="password-repeUsuario" placeholder="....">
+                    <input id="repetir-contra" type="password" name="password-repeUsuario" placeholder="...." value="" required>
                 </div>
                 <button type="submit">Registrarme</button> <!-- Botón que envía el formulario -->
                 <div><!-- Checkbox de Termiunos y condiciones, el valor de value va a viajar cuando este marcado -->
-                    <input type="checkbox" name="Aceptotérminosycondiciones" value="acepto">Acepto términos y
+                    <input type="checkbox" name="Aceptotérminosycondiciones" value="acepto" required>Acepto términos y
                     condiciones
                 </div>
                 <p>
