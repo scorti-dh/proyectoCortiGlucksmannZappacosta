@@ -16,30 +16,24 @@
 
 <body>
     <header>
-        <nav class="horizontal">
-            <ul class="navSupHor">
-                <div class="logoHome">
-                    <li class="logo"> <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li>
-                    <!-- Santos poner imagen -->
-                    <li class="home"> <a href="./index.html">Home</a></li>
-                </div>
-                <div class="loginRegister">
-                    <li class="login"> <a href="./login.html">Login</a> </li>
-                    <li class="register"> <a href="./register.html">Register</a></li>
-                </div>
-                <div class="search">
-                    <form action="./search-results.html" method="get">
-                        <label for="search-" class="labelBuscador"> </label>
-                        <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
-                        <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
-                        <button type="submit">Buscar</button>
-                </div>
-
-                </form>
+        <div>
+            <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
+            <a class="home" href="./index.html">Home</a></li>
+        </div>
+        <nav>
+            <ul>
+                <li class="login"> <a href="./login.html">Login</a> </li>
+                <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
-    </header>
+        <form action="./search-results.html" method="get">
+            <label for="search-" class="labelBuscador"> </label>
+            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+            <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
+            <button type="submit">Buscar</button>
+        </form>
 
+    </header>
     <main>
         <nav class="vertical seccionMain">
             <ul class="categorias">
@@ -90,7 +84,7 @@
         <section class="comentarios">
             <h2>COMENTARIOS</h2> <!--Titulo de comentarios-->
             <p>★★★★☆</p><!--Rating del Producto-->
-           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
                 doloremque illo totam.</p><!--Texto del comentario-->
             <p>00/00/0000</p> <!--Fecha del comentario-->
             <p> lorem, ipsum.</p><!--Nombre del usuario-->

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Font: Noto Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,247 +12,260 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Font: Noto Sans -->
+    <link rel="stylesheet" href="">
 </head>
 
 <body>
     <header>
-        <nav class="horizontal">
-            <ul class="navSupHor">
-                <div class="logoHome mediaCelu">
-                    <li class="logo"> <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
-                    <li class="home"> <a href="./index.html">Home</a></li>
-                </div>
-                <div class="loginRegister mediaCelu">
-                    <li class="login"> <a href="./login.html">Login</a> </li>
-                    <li class="register"> <a href="./register.html">Register</a></li>
-                </div>
-                <div class="search mediaCelu">
-                    <form action="./search-results.html" method="get">
-                        <label for="search-" class="labelBuscador"> </label>
-                        <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
-                        <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
-                        <button type="submit">Buscar</button>
-                </div>
-
-                </form>
+        <div>
+            <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
+            <a gihref="./index.html">Home</a></li>
+        </div>
+        <nav>
+            <ul>
+                <li class="login"> <a href="./login.html">Login</a> </li>
+                <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
+        <form action="./search-results.html" method="get">
+            <label for="search-" class="labelBuscador"> </label>
+            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+            <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
+            <button type="submit">Buscar</button>
+        </form>
+
     </header>
 
     <main>
-        <nav class="vertical seccionMain">
-            <ul class="categorias">
-                <li> <a href="./category.html">Beauty</a></li>
-                <li> <a href="./category.html">Fragances</a></li>
-                <li> <a href="./category.html">Furniture</a></li>
-                <li> <a href="./category.html">Groceries</a></li>
-                <li> <a href="./category.html">Home Decoration </a></li>
-                <li> <a href="./category.html">Kitchen Accessories</a></li>
-                <li> <a href="./category.html">Laptops</a></li>
-                <li> <a href="./category.html">Mens Shirts</a></li>
-                <li> <a href="./category.html">Mens Shoes</a></li>
-                <li> <a href="./category.html">Mens Watches</a></li>
-                <li> <a href="./category.html"> Mobile Accessories</a></li>
-                <li> <a href="./category.html">Motorcycle</a></li>
-                <li> <a href="./category.html">Skin Care</a></li>
-                <li> <a href="./category.html">Smartphones</a></li>
-                <li> <a href="./category.html">Sports Accessories</a></li>
-                <li> <a href="./category.html">Sunglasses</a></li>
-                <li> <a href="./category.html">Tablets</a></li>
-                <li> <a href="./category.html">Tops</a></li>
-                <li> <a href="./category.html">Vehicle</a></li>
-                <li> <a href="./category.html">Womens Bags</a></li>
-                <li> <a href="./category.html">Womens Dresses</a></li>
-                <li> <a href="./category.html">Womens Jewellery</a></li>
-                <li> <a href="./category.html">Womens Shoes</a></li>
-                <li> <a href="./category.html">Womens Watches</a></li>
-            </ul>
-        </nav>
-        <section class="secProductos seccionMain">
-            <div class="divPrincipal">
-                <h2 class="hdosProductos">Productos Mas Vendidos</h2>
-                <div class="divPAMV divPMV">
-                    <div class="divMainProductos">
-                        <article class="articleMainProductos">
-                            <img src="./img/productoUnoIndex.jpg" alt="" class="imgMainProductos">
-                            <!--Imagen de Producto-->
-                            <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                                doloremque illo totam.</p> <!--Descripcion de Producto-->
-                            <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                            <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
+        <aside>
+            <nav>
+                <ul>
+                    <li> <a href="./category.html">Beauty</a></li>
+                    <li> <a href="./category.html">Fragances</a></li>
+                    <li> <a href="./category.html">Furniture</a></li>
+                    <li> <a href="./category.html">Groceries</a></li>
+                    <li> <a href="./category.html">Home Decoration </a></li>
+                    <li> <a href="./category.html">Kitchen Accessories</a></li>
+                    <li> <a href="./category.html">Laptops</a></li>
+                    <li> <a href="./category.html">Mens Shirts</a></li>
+                    <li> <a href="./category.html">Mens Shoes</a></li>
+                    <li> <a href="./category.html">Mens Watches</a></li>
+                    <li> <a href="./category.html"> Mobile Accessories</a></li>
+                    <li> <a href="./category.html">Motorcycle</a></li>
+                    <li> <a href="./category.html">Skin Care</a></li>
+                    <li> <a href="./category.html">Smartphones</a></li>
+                    <li> <a href="./category.html">Sports Accessories</a></li>
+                    <li> <a href="./category.html">Sunglasses</a></li>
+                    <li> <a href="./category.html">Tablets</a></li>
+                    <li> <a href="./category.html">Tops</a></li>
+                    <li> <a href="./category.html">Vehicle</a></li>
+                    <li> <a href="./category.html">Womens Bags</a></li>
+                    <li> <a href="./category.html">Womens Dresses</a></li>
+                    <li> <a href="./category.html">Womens Jewellery</a></li>
+                    <li> <a href="./category.html">Womens Shoes</a></li>
+                    <li> <a href="./category.html">Womens Watches</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section>
+            <h2>Productos Mas Vendidos</h2>
+                    <article>
+                        <img src="./img/productoUnoIndex.jpg" alt="">
+                        <!--Imagen de Producto-->
+                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                            doloremque illo totam.</p> <!--Descripcion de Producto-->
+                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                        <a class="boton" href="product.html">Ver Detalle</a>
+                        <!-- Es un link pero despues en css le das un estilo de boton -->
+                    </article>
+                    <article class="articleMainProductos">
+                        <img src="./img/productoUnoIndex.jpg" alt="">
+                        <!--Imagen de Producto-->
+                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                            doloremque illo totam.</p> <!--Descripcion de Producto-->
+                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                        <a class="boton" href="product.html">Ver Detalle</a>
+                        <!-- Es un link pero despues en css le das un estilo de boton -->
                         </article>
-                        <article class="articleMainProductos">
-                            <img src="./img/productoUnoIndex.jpg" alt="" class="imgMainProductos">
-                            <!--Imagen de Producto-->
-                            <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                                doloremque illo totam.</p> <!--Descripcion de Producto-->
-                            <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                            <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                        </article>
-                    </div>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                </div>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+                <article>
+                    <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                        doloremque illo totam.</p> <!--Descripcion de Producto-->
+                    <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                    <a class="boton" href="product.html">Ver Detalle</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
             </div>
-            <div class="divPrincipal">
-                <h2 class="hdosProductos">Recomendacion Nexo</h2>
-                <div class="divPAMV divPA">
-                    <div class="divMainProductos">
-                        <article class="articleMainProductos">
-                            <img src="./img/productoUnoIndex.jpg" alt="" class="imgMainProductos">
-                            <!--Imagen de Producto-->
-                            <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                                doloremque illo totam.</p> <!--Descripcion de Producto-->
-                            <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                            <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                        </article>
-                        <article class="articleMainProductos">
-                            <img src="./img/productoUnoIndex.jpg" alt="" class="imgMainProductos">
-                            <!--Imagen de Producto-->
-                            <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                                doloremque illo totam.</p> <!--Descripcion de Producto-->
-                            <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                            <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                        </article>
-                    </div>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                    <article>
-                        <img src="./img/productoUnoIndex.jpg" alt="" class="imgSecProductos"> <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a> <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                </div>
         </section>
-    </main>
-    <footer>
+
+
+        <section>
+            <h2>Recomendacion Nexo</h2>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt="">
+                <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt="">
+                <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+            <article>
+                <img src="./img/productoUnoIndex.jpg" alt=""> <!--Imagen de Producto-->
+                <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
+                    doloremque illo totam.</p> <!--Descripcion de Producto-->
+                <p class="pPrecio">999.999</p> <!--Precio de Producto-->
+                <a class="boton" href="product.html">Ver Detalle</a>
+                <!-- Es un link pero despues en css le das un estilo de boton -->
+            </article>
+        </section>
+
+        <footer>
         <h3>Integrantes: Santos Corti Maderna, Simón Glücksmann, Manuel Zappacosta</h3>
         <p> Todos los derechos reservados Copyright. © 2025</p>
-    </footer>
-    
+        </footer>
+
 </body>
 
 </html>
