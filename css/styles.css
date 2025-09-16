@@ -211,7 +211,7 @@ main {
         "wdth" 100;
 
 }
-
+g
 .p_precio {
     margin: 9% 0px;
     font-size: larger;
@@ -289,8 +289,16 @@ img {
     border-radius: 5% 5%f;
 }
 
+p {
+    text-align: center;
+}
+
 .bloque_aside_productos {
-    width: 13.8%;
+    width: 12%;
+}
+
+.main_productos {
+    width: 88%;
 }
 
 .article_producto {
@@ -301,6 +309,10 @@ img {
 .article_producto h3 {
     font-size: 48px;
     margin: 0px;
+}
+
+.article_producto p {
+    text-align: left;
 }
 
 .seccion_producto {
@@ -332,6 +344,3 @@ img {
     color: white;
 }
 
-.main_productos {
-    width: 85%;
-}
