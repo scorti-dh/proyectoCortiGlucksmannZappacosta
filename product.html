@@ -5,118 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <!-- Font: Noto Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <!-- Font: Noto Sans -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 
 <body>
     <header>
-        <div>
-            <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
-            <a class="home" href="./index.html">Home</a></li>
+        <div class="bloque_header logo_home">
+            <a href="./index.html"><img src="./img/logoNexo.png" alt="" class="imagen_logo"></a> </li>
+            <!-- Santos poner imagen -->
+            <a href="./index.html">Home</a></li>
         </div>
-        <nav>
-            <ul>
+        <nav class="bloque_header login_register">
+            <ul class="ul_login_register">
                 <li class="login"> <a href="./login.html">Login</a> </li>
                 <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
-        <form action="./search-results.html" method="get">
+        <form action="./search-results.html" method="get" class="bloque_header buscador">
             <label for="search-" class="labelBuscador"> </label>
             <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
             <button type="submit">Buscar</button>
         </form>
-
     </header>
-    <main>
-        <nav class="vertical seccionMain">
-            <ul class="categorias">
-                <li> <a href="./category.html">Beauty</a></li>
-                <li> <a href="./category.html">Fragances</a></li>
-                <li> <a href="./category.html">Furniture</a></li>
-                <li> <a href="./category.html">Groceries</a></li>
-                <li> <a href="./category.html">Home Decoration </a></li>
-                <li> <a href="./category.html">Kitchen Accessories</a></li>
-                <li> <a href="./category.html">Laptops</a></li>
-                <li> <a href="./category.html">Mens Shirts</a></li>
-                <li> <a href="./category.html">Mens Shoes</a></li>
-                <li> <a href="./category.html">Mens Watches</a></li>
-                <li> <a href="./category.html"> Mobile Accessories</a></li>
-                <li> <a href="./category.html">Motorcycle</a></li>
-                <li> <a href="./category.html">Skin Care</a></li>
-                <li> <a href="./category.html">Smartphones</a></li>
-                <li> <a href="./category.html">Sports Accessories</a></li>
-                <li> <a href="./category.html">Sunglasses</a></li>
-                <li> <a href="./category.html">Tablets</a></li>
-                <li> <a href="./category.html">Tops</a></li>
-                <li> <a href="./category.html">Vehicle</a></li>
-                <li> <a href="./category.html">Womens Bags</a></li>
-                <li> <a href="./category.html">Womens Dresses</a></li>
-                <li> <a href="./category.html">Womens Jewellery</a></li>
-                <li> <a href="./category.html">Womens Shoes</a></li>
-                <li> <a href="./category.html">Womens Watches</a></li>
-            </ul>
-        </nav>
-        <div class="willy">
-            <aside>
-                <nav>
-                    <ul>
-                        <li> <a href="./category.html">Beauty</a></li>
-                        <li> <a href="./category.html">Fragances</a></li>
-                        <li> <a href="./category.html">Furniture</a></li>
-                        <li> <a href="./category.html">Groceries</a></li>
-                        <li> <a href="./category.html">Home Decoration </a></li>
-                        <li> <a href="./category.html">Kitchen Accessories</a></li>
-                        <li> <a href="./category.html">Laptops</a></li>
-                        <li> <a href="./category.html">Mens Shirts</a></li>
-                        <li> <a href="./category.html">Mens Shoes</a></li>
-                        <li> <a href="./category.html">Mens Watches</a></li>
-                        <li> <a href="./category.html"> Mobile Accessories</a></li>
-                        <li> <a href="./category.html">Motorcycle</a></li>
-                        <li> <a href="./category.html">Skin Care</a></li>
-                        <li> <a href="./category.html">Smartphones</a></li>
-                        <li> <a href="./category.html">Sports Accessories</a></li>
-                        <li> <a href="./category.html">Sunglasses</a></li>
-                        <li> <a href="./category.html">Tablets</a></li>
-                        <li> <a href="./category.html">Tops</a></li>
-                        <li> <a href="./category.html">Vehicle</a></li>
-                        <li> <a href="./category.html">Womens Bags</a></li>
-                        <li> <a href="./category.html">Womens Dresses</a></li>
-                        <li> <a href="./category.html">Womens Jewellery</a></li>
-                        <li> <a href="./category.html">Womens Shoes</a></li>
-                        <li> <a href="./category.html">Womens Watches</a></li>
-                    </ul>
-                </nav>
-            </aside>
-            <main>
 
-                <h2 class="titulos">Detalle del producto</h2>
+    <div class="willy">
+        <aside class="bloque_aside_productos">
+            <nav>
+                <ul class="ul_aside">
+                    <p>A - Z</p>
+                    <li> <a href="./category.html">Beauty</a></li>
+                    <li> <a href="./category.html">Fragances</a></li>
+                    <li> <a href="./category.html">Furniture</a></li>
+                    <li> <a href="./category.html">Groceries</a></li>
+                    <li> <a href="./category.html">Home Decoration </a></li>
+                    <li> <a href="./category.html">Kitchen Accessories</a></li>
+                    <li> <a href="./category.html">Laptops</a></li>
+                    <li> <a href="./category.html">Mens Shirts</a></li>
+                    <li> <a href="./category.html">Mens Shoes</a></li>
+                    <li> <a href="./category.html">Mens Watches</a></li>
+                    <li> <a href="./category.html"> Mobile Accessories</a></li>
+                    <li> <a href="./category.html">Motorcycle</a></li>
+                    <li> <a href="./category.html">Skin Care</a></li>
+                    <li> <a href="./category.html">Smartphones</a></li>
+                    <li> <a href="./category.html">Sports Accessories</a></li>
+                    <li> <a href="./category.html">Sunglasses</a></li>
+                    <li> <a href="./category.html">Tablets</a></li>
+                    <li> <a href="./category.html">Tops</a></li>
+                    <li> <a href="./category.html">Vehicle</a></li>
+                    <li> <a href="./category.html">Womens Bags</a></li>
+                    <li> <a href="./category.html">Womens Dresses</a></li>
+                    <li> <a href="./category.html">Womens Jewellery</a></li>
+                    <li> <a href="./category.html">Womens Shoes</a></li>
+                    <li> <a href="./category.html">Womens Watches</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main_productos">
+            <section class="seccion_producto">
 
-                <section class="sections">
-
-                    <article class="articleCategory">
-                        <img src="./img/productoUnoIndex.jpg" alt="">
-                        <!--Imagen de Producto-->
-                        <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dignissimos soluta at
-                            doloremque illo totam.</p> <!--Descripcion de Producto-->
-                        <p class="pPrecio">999.999</p> <!--Precio de Producto-->
-                        <a class="boton" href="product.html">Ver Detalle</a>
-                        <!-- Es un link pero despues en css le das un estilo de boton -->
-                    </article>
-                </section>
-            </main>
-        </div>
-        <footer>
-            <h3>Integrantes: Santos Corti Maderna, Simón Glücksmann, Manuel Zappacosta</h3>
-            <p> Todos los derechos reservados Copyright. © 2025</p>
-        </footer>
+                <img src="./img/productoUnoIndex.jpg" alt="Imagen del producto" class="img_producto">
+                <!--Imagen de Producto-->
+                <article class="article_producto">
+                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sed sunt, modi perferendis
+                        incidunt facilis inventore dolorum fuga officia, porro veniam harum esse tempora asperiores
+                        voluptates non ut odio, autem iure accusamus doloremque rerum! Molestiae, maiores. Ab odit nihil
+                        aperiam illum quis at veritatis iste praesentium tenetur doloremque, incidunt velit eos, tempore
+                        rerum? Ipsum tempore possimus omnis reprehenderit, a quis praesentium aperiam labore sunt eaque.
+                    </p>
+                    <!--Descripcion de Producto-->
+                    <p class="p_precio">Precio: 999.999</p> <!--Precio de Producto-->
+                    <a class="comprar" href="product.html">Comprar</a>
+                    <!-- Es un link pero despues en css le das un estilo de boton -->
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <h3>Integrantes: Santos Corti Maderna, Simón Glücksmann, Manuel Zappacosta</h3>
+        <p> Todos los derechos reservados Copyright. © 2025</p>
+    </footer>
 </body>
 
 </html>

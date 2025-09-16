@@ -5,36 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-
-    <!-- Font: Noto Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <!-- Font: Noto Sans -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
    <header>
-        <div class="bloqueHeader logoHome">
-            <a href="./index.html"><img src="./img/logoNexo.svg" alt="" class=""></a> </li> <!-- Santos poner imagen -->
+        <div class="bloque_header logo_home">
+            <a href="./index.html"><img src="./img/logoNexo.png" alt="" class="imagen_logo"></a> </li>
+            <!-- Santos poner imagen -->
             <a href="./index.html">Home</a></li>
         </div>
-        <nav>
-            <ul class="bloqueHeader loginRegister">
+        <nav class="bloque_header login_register">
+            <ul class="ul_login_register">
                 <li class="login"> <a href="./login.html">Login</a> </li>
                 <li class="register"> <a href="./register.html">Register</a></li>
             </ul>
         </nav>
-        <form action="./search-results.html" method="get" class="bloqueHeader">
+        <form action="./search-results.html" method="get" class="bloque_header buscador">
             <label for="search-" class="labelBuscador"> </label>
             <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
             <button type="submit">Buscar</button>
         </form>
-
     </header>
 
 
