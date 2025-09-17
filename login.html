@@ -33,52 +33,26 @@
         </form>
     </header>
 
-    <main>
-        <nav class="vertical seccionMain">
-            <ul class="categorias">
-                <li> <a href="./category.html">Beauty</a></li>
-                <li> <a href="./category.html">Fragances</a></li>
-                <li> <a href="./category.html">Furniture</a></li>
-                <li> <a href="./category.html">Groceries</a></li>
-                <li> <a href="./category.html">Home Decoration </a></li>
-                <li> <a href="./category.html">Kitchen Accessories</a></li>
-                <li> <a href="./category.html">Laptops</a></li>
-                <li> <a href="./category.html">Mens Shirts</a></li>
-                <li> <a href="./category.html">Mens Shoes</a></li>
-                <li> <a href="./category.html">Mens Watches</a></li>
-                <li> <a href="./category.html"> Mobile Accessories</a></li>
-                <li> <a href="./category.html">Motorcycle</a></li>
-                <li> <a href="./category.html">Skin Care</a></li>
-                <li> <a href="./category.html">Smartphones</a></li>
-                <li> <a href="./category.html">Sports Accessories</a></li>
-                <li> <a href="./category.html">Sunglasses</a></li>
-                <li> <a href="./category.html">Tablets</a></li>
-                <li> <a href="./category.html">Tops</a></li>
-                <li> <a href="./category.html">Vehicle</a></li>
-                <li> <a href="./category.html">Womens Bags</a></li>
-                <li> <a href="./category.html">Womens Dresses</a></li>
-                <li> <a href="./category.html">Womens Jewellery</a></li>
-                <li> <a href="./category.html">Womens Shoes</a></li>
-                <li> <a href="./category.html">Womens Watches</a></li>
-            </ul>
-        </nav>
-        <article class="form-login"> <!-- Le hago una clase al form para cambairlo en el css -->
-            <form action="./index.html" method="get"> <!-- se envia a index-->
-                <div> <!-- Grupo del campo Email -->
-                    <label for="correo">Correo electrónico:</label>
-                    <input id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar" value="" required>
-                </div>
-                <div> <!-- Grupo del campo Contraseña -->
-                    <label for="contra"> Contraseña:</label>
-                    <input id="contra" type="password" name="passwordUsuario" placeholder="......" value="" required>
-                </div>
-                <button type="submit">ingresar</button> <!-- Botón que envía el formulario -->
-                <p>
-                    <a href="./register.html">No tengo cuenta</a> <!-- Link a la página de registro -->
-                </p>
-            </form>
-        </article>
-    </main>
+    <article class="login-caja">
+        <form class="form-login" action="./index.html" method="get"> <!-- se envia a index-->
+            <div>
+                <h1 class="titulo-form">Accede a tu cuenta</h1>
+            </div>
+            <div> <!-- Grupo del campo Email -->
+                <label for="correo">Correo electrónico:</label>
+                <input class="input-form" id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar" value="" required>
+            </div>
+            <div> <!-- Grupo del campo Contraseña -->
+                <label for="contra"> Contraseña:</label>
+                <input class="input-form" id="contra" type="password" name="passwordUsuario" placeholder="......" value="" required>
+            </div>
+            <button type="submit">ingresar</button> <!-- Botón que envía el formulario -->
+            <p>
+                <a href="./register.html">No tengo cuenta</a> <!-- Link a la página de registro -->
+            </p>
+        </form>
+    </article>
+
     <footer>
         <h3>Integrantes: Santos Corti Maderna, Simón Glücksmann, Manuel Zappacosta</h3>
         <p> Todos los derechos reservados Copyright. © 2025</p>
