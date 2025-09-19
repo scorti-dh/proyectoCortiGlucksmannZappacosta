@@ -46,7 +46,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 0.7%;
+    padding-top: 13.44px;
     border-bottom: #c9c9c9 solid 2px;
 
 }
@@ -64,15 +64,15 @@ header {
 }
 
 .logo_home a {
-    font-size: 125%;
+    font-size: 24px;
 }
 
 .ul_login_register a {
-    font-size: 125%;
+    font-size: 24px;
 }
 
 .imagen_logo {
-    margin: 5%;
+    margin: 96px;
     width: 100px;
 }
 
@@ -91,7 +91,7 @@ header {
 
     width: 75%;
     height: 15px;
-    padding: 2.5% 5%;
+    padding: 18px 30px;
     color: rgb(0, 0, 0);
 
     font-family: "Open Sans", sans-serif;
@@ -106,7 +106,7 @@ header {
     order: 1001;
     width: 25%;
     display: flex;
-    padding-right: 2.5%;
+    padding-right: 48px;
 }
 
 .ul_login_register {
@@ -118,7 +118,7 @@ header {
 }
 
 .login {
-    margin-right: 10%;
+    margin-right: 30px;
 }
 
 .color_header {
@@ -130,11 +130,11 @@ header {
 }
 
 aside {
-    margin: 1%;
+    margin: 19.2px;
     background: #f459ff;
     background: linear-gradient(36deg, rgba(244, 89, 255, 1) 0%, rgba(255, 163, 82, 1) 100%);
     width: 25%;
-    padding: 0.5% 2%;
+    padding: 9.6px 38.4px;
 
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -148,7 +148,7 @@ aside {
 }
 
 .ul_aside li {
-    margin: 15% 0px;
+    margin: 20px 0px;
 }
 
 
@@ -188,14 +188,14 @@ main {
         "wdth" 100;
 
     background-color: #ffffff;
-    padding: 1% 2.5% 2.5% 2.5%;
+    padding: 19.2px 48px 48px 48px;
 
 }
 
 
 .boton {
     height: 35px;
-    padding: 2.5%;
+    padding: 5px;
     border-radius: 10% 10% 10% 10%;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -212,8 +212,8 @@ main {
 
 }
 
-g .p_precio {
-    margin: 9% 0px;
+.p_precio {
+    margin: 5px 0px;
     font-size: larger;
 
 }
@@ -252,7 +252,7 @@ footer * {
     flex-wrap: wrap;
     width: 100%;
     background: rgb(255, 255, 255);
-    margin-bottom: 5%;
+    margin-bottom: 96px;
 }
 
 /*titulo*/
@@ -274,8 +274,8 @@ footer * {
     background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
     border-radius: 5% 5%;
     width: 24%;
-    margin: 0.5%;
-    padding: 1.25%;
+    margin: 4px;
+    padding: 12px;
 }
 
 .article_category:hover {
@@ -317,7 +317,7 @@ p {
 
 .seccion_producto {
     display: flex;
-    padding: 2.5%;
+    padding: 19.2px;
 }
 
 .seccion_producto img {
@@ -334,7 +334,7 @@ p {
     background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
     width: 60%;
     height: 50px;
-    padding: 1%;
+    padding: 5px;
     border-radius: 10px 10px;
     color: black;
 }
@@ -367,7 +367,7 @@ p {
     border-radius: 12px;
     width: 40%;
     height: 400px;
-    margin-top: 7.5%;
+    margin-top: 144px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -380,7 +380,7 @@ p {
 .boton_login {
     height: 75px;
     width: 50%;
-    margin-top: 1.5%;
+    margin-top: 28px;
 }
 
 .boton_login:hover {
@@ -419,12 +419,12 @@ p {
     border-radius: 12px;
     width: 40%;
     height: 480px;
-    padding: 2%;
-    margin-top: 7.5%;
+    padding: 38.8px;
+    margin-top: 144px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
     text-align: center;
     background: linear-gradient(36deg, rgba(244, 89, 255, 1) 0%, rgba(255, 163, 82, 1) 100%);
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
