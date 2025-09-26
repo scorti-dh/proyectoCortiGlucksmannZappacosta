@@ -661,4 +661,10 @@ p {
         margin-bottom: 7px;
         width: 100%;
     }
+
+    .bloque_aside_productos {
+        display: flex;
+        width: 90%;
+    }
+
 }
