@@ -6,6 +6,13 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: large;
 }
 
 ul,
@@ -31,13 +38,6 @@ header {
     width: 100%;
     height: 85px;
     margin: 0px;
-
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 
     color: rgb(0, 0, 0);
     background: #1b9ccf;
@@ -93,13 +93,6 @@ header {
     height: 15px;
     padding: 18px 30px;
     color: rgb(0, 0, 0);
-
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 }
 
 .login_register {
@@ -135,15 +128,6 @@ aside {
     background: linear-gradient(36deg, rgba(244, 89, 255, 1) 0%, rgba(255, 163, 82, 1) 100%);
     width: 25%;
     padding: 9.6px 38.4px;
-
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 550;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-
-
     font-size: large;
 }
 
@@ -162,13 +146,6 @@ a {
 
 button {
     color: rgb(255, 255, 255);
-
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
     font-size: large;
 
     border-radius: 5px;
@@ -180,13 +157,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 550;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-
     background-color: #ffffff;
     padding: 19.2px 48px 48px 48px;
 
@@ -203,13 +173,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-
 }
 
 .p_precio {
@@ -224,14 +187,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 550;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-
     font-size: smaller;
 }
 
@@ -324,7 +279,7 @@ p {
 .seccion_producto {
     display: flex;
     padding: 19.2px;
-    gap: 32px;     
+    gap: 32px;
     margin-bottom: 48px;
 }
 
@@ -333,9 +288,9 @@ p {
 }
 
 .comentarios-product {
-  background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
-  padding: 20px;
-  border-radius: 10px;
+    background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .p_comentarios {
@@ -378,14 +333,13 @@ p {
 .login-caja {
     display: flex;
     justify-content: center;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-    font-size: large;
     min-height: 100vh;
+}
+
+.body_loginregister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-login {
@@ -393,7 +347,7 @@ p {
     border-radius: 12px;
     width: 40%;
     height: 400px;
-    margin-top: 144px;
+    margin: 150px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,13 +380,6 @@ p {
 .register-caja {
     display: flex;
     justify-content: center;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-    font-size: large;
     min-height: 100vh;
 }
 
@@ -446,7 +393,7 @@ p {
     width: 40%;
     height: 480px;
     padding: 38.8px;
-    margin-top: 144px;
+    margin: 110px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -455,6 +402,7 @@ p {
     background: linear-gradient(36deg, rgba(244, 89, 255, 1) 0%, rgba(255, 163, 82, 1) 100%);
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
 }
+
 
 
 @media(max-width: 768px) {
@@ -481,7 +429,7 @@ p {
         width: 83%;
         padding-left: 10px;
     }
-    
+
     .secciones {
         flex-direction: column;
         padding-left: 5px;
@@ -508,11 +456,12 @@ p {
     footer {
         height: 60px;
         padding: 5px 15px;
+        align-self: flex-end;
     }
 
     .form-login {
-        margin-top: 65px;
-        margin-bottom: 71px;
+        margin: 90px 0px;
+
         height: 500px;
     }
 
@@ -522,7 +471,194 @@ p {
 
     .form-register {
         min-height: 0vh;
-        margin: 55px 0px;
+        margin: 80px 0px;
         height: 600px;
+    }
+
+    .main_productos {
+        width: 100%;
+    }
+
+    .seccion_producto {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bloque_aside_productos {
+        width: 17%;
+    }
+
+    .seccion_producto img {
+        width: 100%;
+    }
+
+    .div_comentarios {
+        flex-direction: column;
+    }
+
+    .div_comentarios img {
+        align-self: center;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* MEDIA QUERIE CELULAR */
+
+@media (max-width: 420px) {
+
+    .willy {
+        flex-direction: column;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+    }
+
+    .imagen_logo {
+        margin: 3px;
+        width: 60px;
+        margin-top: 15px;
+    }
+
+    .login_register {
+        margin: 5px 0;
+        display: flex;
+        font-size: 5px;
+    }
+
+    .bloque_header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .logo_home {
+        flex-direction: column;
+    }
+
+    .ul_login_register {
+        justify-content: center;
+    }
+
+    .boton_login {
+        font-size: small;
+        width: 100%;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .ul_aside {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2px;
+    }
+
+    .ul_aside p {
+        display: none;
+    }
+
+    .ul_aside li {
+        margin: 20px 5px;
+    }
+
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .secciones {
+        flex-direction: column;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .titulos {
+        text-align: center;
+    }
+
+    .article_category {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    h3 {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 2px 0;
+        text-align: center;
+    }
+
+    footer {
+        height: auto;
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .form-login {
+        margin: 40px 0;
+        height: auto;
+        width: 80%;
+    }
+
+    .form-register {
+        margin: 40px 0;
+        height: auto;
+        width: 80%;
+    }
+
+    .login-caja {
+        min-height: 0;
+    }
+
+
+    .main_productos {
+        width: 100%;
+    }
+
+    .seccion_producto {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .seccion_producto img {
+        width: 100%;
+    }
+
+    .div_comentarios {
+        flex-direction: column;
+    }
+
+    .div_comentarios img {
+        align-self: center;
+        margin-bottom: 7px;
+        width: 100%;
     }
 }
