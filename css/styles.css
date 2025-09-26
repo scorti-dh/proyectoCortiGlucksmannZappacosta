@@ -286,7 +286,7 @@ footer * {
 
 img {
     width: 200px;
-    border-radius: 5% 5%f;
+    border-radius: 5% 5%;
 }
 
 p {
@@ -306,6 +306,10 @@ p {
 .article_producto {
     display: flex;
     flex-direction: column;
+}
+
+.p_categorias {
+    margin-top: 25px;
 }
 
 .article_producto h3 {
@@ -332,7 +336,18 @@ p {
   background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
+}
+
+.p_comentarios {
+    text-align: justify;
+}
+
+.div_comentarios {
+    display: flex;
+}
+
+.comments {
+    margin: 0px 30px;
 }
 
 .comprar {
@@ -441,3 +456,73 @@ p {
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
+
+@media(max-width: 768px) {
+
+    .imagen_logo {
+        margin: 5px 5px 5px 5px;
+    }
+
+    .login_register {
+        margin-right: 2px;
+        padding-right: 2px;
+    }
+
+    .bloque_header {
+        width: 33%;
+    }
+
+    aside {
+        width: 17%;
+        padding: 4.3px 17.2px;
+    }
+
+    main {
+        width: 83%;
+        padding-left: 10px;
+    }
+    
+    .secciones {
+        flex-direction: column;
+        padding-left: 5px;
+    }
+
+    .titulos {
+        text-align: center;
+    }
+
+    .article_category {
+        width: 95%;
+        margin: 10px;
+    }
+
+    h3 {
+        margin: 5px 0px;
+    }
+
+    p {
+        text-align: left;
+        margin: 1.5px 0px;
+    }
+
+    footer {
+        height: 60px;
+        padding: 5px 15px;
+    }
+
+    .form-login {
+        margin-top: 65px;
+        margin-bottom: 71px;
+        height: 500px;
+    }
+
+    .login-caja {
+        min-height: 0;
+    }
+
+    .form-register {
+        min-height: 0vh;
+        margin: 55px 0px;
+        height: 600px;
+    }
+}
