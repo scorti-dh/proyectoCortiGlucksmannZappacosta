@@ -170,6 +170,7 @@ main {
     border-radius: 10% 10% 10% 10%;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    font-weight: bold;
 
     display: flex;
     flex-wrap: wrap;
@@ -227,8 +228,8 @@ footer * {
     justify-content: space-between;
     align-items: center;
     color: rgb(25, 25, 25);
-    background: #d1f2ff;
-    background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
+    /* background: #d1f2ff; */
+    /* background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%); */
     border-radius: 5% 5%;
     width: 24%;
     margin: 4px;
@@ -246,8 +247,22 @@ img {
     border-radius: 5% 5%;
 }
 
+.section_ssr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.div_ssr {
+  margin: 0px 5px;
+}
+
+.h3_productos {
+    font-weight: bold;
+}
+
 p {
-    text-align: center;
+    text-align: justify;
 }
 
 .bloque_aside_productos {
