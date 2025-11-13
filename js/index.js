@@ -40,3 +40,21 @@ fetch(url)
     .catch(function (error) {
         console.log("Error: " + error);
     })
+
+
+
+    //header y alerts al escribir
+let form = document.getElementById("search-form")
+let input = document.getElementById("search")
+
+form.addEventListener("submit", function(evento){
+    let productoBuscado = input.value;
+
+    if (textoBuscado === ""){
+        alert("el campo de busqueda no puede estar vacio");
+        evento.preventDefault();
+    }else if (textoBuscado.length < 3){
+        alert("El producto que esta buscando debe tener al menos 3 caracteres")
+        evento.preventDefault()
+    }
+});
