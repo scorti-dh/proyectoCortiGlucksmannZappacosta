@@ -33,21 +33,21 @@
         </form>
     </header>
 
-        <form class="form-login" action="./index.html" method="get"> <!-- se envia a index-->
+        <form class="form_login" action="./index.html" method="get"> <!-- se envia a index-->
             <div>
                 <h1 class="titulo-form">Accede a tu cuenta</h1>
             </div>
             <div class="emcon_caja"> <!-- Grupo del campo Email -->
                 <label for="correo">Correo electrónico:</label>
                 <input class="input-form" id="correo" type="email" name="emailUsuario" placeholder="@udesa.edu.ar"
-                    value="" required>
+                    value="" >
             </div>
             <div class="emcon_caja"> <!-- Grupo del campo Contraseña -->
                 <label for="contra"> Contraseña:</label>
                 <input class="input-form" id="contra" type="password" name="passwordUsuario" placeholder="......"
-                    value="" required>
+                    value="" >
             </div>
-            <button type="submit" class="boton_login">Ingresar</button> <!-- Botón que envía el formulario -->
+            <button type="submit" id="submit_login">Ingresar</button> <!-- Botón que envía el formulario -->
             <p id="no_tengo_cuenta">
                 <a href="./register.html">No tengo cuenta</a> <!-- Link a la página de registro -->
             </p>
