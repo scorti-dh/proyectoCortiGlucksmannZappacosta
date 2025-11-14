@@ -71,21 +71,20 @@
                 <img src="./img/productoUnoIndex.jpg" alt="Imagen del producto" class="img_producto">
                 <!--Imagen de Producto-->
                 <article class="article_producto">
-                    <h3>Lorem, ipsum.</h3> <!--Titulo de Producto-->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sed sunt, modi perferendis
-                        incidunt facilis inventore dolorum fuga officia, porro veniam harum esse tempora asperiores
-                        voluptates non ut odio, autem iure accusamus doloremque rerum! Molestiae, maiores. Ab odit nihil
-                        aperiam illum quis at veritatis iste praesentium tenetur doloremque, incidunt velit eos, tempore
-                        rerum? Ipsum tempore possimus omnis reprehenderit, a quis praesentium aperiam labore sunt eaque.
-                    </p>
+                    <h3 id="titulo_detalle"></h3> <!--Titulo de Producto-->
+                    <p id="brand_detalle"></p>
+                    <p id="desc_detalle"></p>
                     <!--Descripcion de Producto-->
                     <p class="p_precio">Precio: 999.999</p> <!--Precio de Producto-->
                     <a class="comprar" href="product.html">Comprar</a>
                     <!-- Es un link pero despues en css le das un estilo de boton -->
-                    <p class="p_categorias">Categoría:<a href="./category.html"> Lorem, ipsum.</a></p>
+                    <p id="cat_detalle">Categoría:<a href="" id="a_cat_detalle"></a></p>
                     <!--Categoría del Producto-->
-                    <p>En Stock</p><!--Stock del Producto-->
-                    <ul><!--Tags del Producto-->
+                    <div class="div_stock">
+                        <p>En Stock:</p>
+                        <p id="stock_detalle"></p><!--Stock del Producto-->
+                    </div>
+                    <ul id="tags_detalle"><!--Tags del Producto-->
                         <li>
                             <p>#Lorem</p>
                             <p>#ipsum</p>
@@ -132,5 +131,8 @@
         <p> Todos los derechos reservados Copyright. © 2025</p>
     </footer>
 </body>
+
+
+<script src="./js/product.js"></script>
 
 </html>
