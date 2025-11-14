@@ -21,15 +21,19 @@
         </div>
         <nav class="bloque_header login_register">
             <ul class="ul_login_register">
-                <li class="login"> <a href="./login.html" class="color_header">Login</a> </li>
-                <li class="register"> <a href="./register.html" class="color_header">Register</a></li>
+                <li class="login link-login"> <a href="./login.html" class="color_header">Login</a> </li>
+                <li class="register link-register"> <a href="./register.html" class="color_header">Register</a></li>
+                <li class="bienvenido"></li>
+                <button class="link_logout">Logout</button>
             </ul>
         </nav>
-        <form action="./search-results.html" method="get" class="bloque_header buscador" id = "search-form">
+        <form action="./search-results.html" method="get" class="bloque_header buscador" id="search-form">
             <label for="search" class="labelBuscador"> </label>
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
             <button type="submit">Buscar</button>
         </form>
+
+
     </header>
 
     <div class="willy">
@@ -77,6 +81,8 @@
     </footer>
 
     <script src="./js/index.js"></script>
+    <script src="./js/saludo.js"></script>
+
 </body>
 
 </html>
