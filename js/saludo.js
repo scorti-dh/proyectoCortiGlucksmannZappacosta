@@ -10,7 +10,7 @@ logout.addEventListener('click', function (e) {
     location.reload()
 }   )
 
-if (username !== ' ') {
+if (username) {
     let bienvenida = document.querySelector(".bienvenido");
     let linkLogin = document.querySelector(".link-login");
     let linkRegister = document.querySelector(".link-register");
