@@ -84,15 +84,7 @@ comprobante.addEventListener('submit', function (e) {
     } else {
 
     }
-
-
-
-
-
 })
-
-
-
     //header y alerts al escribir
 let form = document.getElementById("search-form")
 let input = document.getElementById("search")
