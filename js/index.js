@@ -15,7 +15,7 @@ fetch(url)
         for (let i = 0; i < 12; i++) {
             vendidos.innerHTML += ` 
             <article class="article_category">
-            <img src="${productos[i].images}"></img>
+            <img src="${productos[i].thumbnail}"></img>
             <h3 class="h3_productos">${productos[i].title}</h3>
             <p>${productos[i].description}</p>
             <p>${productos[i].price}</p>
@@ -41,7 +41,7 @@ fetch(url)
         for (let i = 12; i < 24; i++) {
             recomendaciones.innerHTML += ` 
             <article class="article_category">
-            <img src="${productos[i].images}"></img>
+            <img src="${productos[i].thumbnail}"></img>
             <h3 class="h3_productos">${productos[i].title}</h3>
             <p>${productos[i].description}</p>
             <p>${productos[i].price}</p>

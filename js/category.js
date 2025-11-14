@@ -18,7 +18,7 @@ fetch(url)
 let queryString = location.search;
 let queryStringObj = new URLSearchParams(queryString);
 
-let catName = queryStringObj.get('name').toLowerCase();
+let catName = queryStringObj.get('name');
 let urlNueva = 'https://dummyjson.com/products/category/' + catName; 
 
 console.log(urlNueva);
@@ -35,7 +35,7 @@ fetch(urlNueva)
         for (let i = 0; i < productos.length; i++) {
             vendidos.innerHTML += ` 
             <article class="article_category">
-            <img src="${productos[i].images}"></img>
+            <img src="${productos[i].thumbnail}"></img>
             <h3 class="h3_productos">${productos[i].title}</h3>
             <p>${productos[i].description}</p>
             <p>${productos[i].price}</p>
