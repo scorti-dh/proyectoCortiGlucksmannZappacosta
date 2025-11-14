@@ -399,7 +399,7 @@ p {
     align-items: center;
 }
 
-.form-login {
+.form_login {
     padding: 32px;
     border-radius: 12px;
     width: 40%;
@@ -421,7 +421,7 @@ p {
     margin-top: 8px;
 }
 
-.boton_login {
+#submit_login {
     height: 75px;
     width: 50%;
     margin-top: 28px;
