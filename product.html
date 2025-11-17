@@ -16,18 +16,18 @@
     <header>
         <div class="bloque_header logo_home">
             <a href="./index.html"><img src="./img/logoNexo.png" alt="" class="imagen_logo"></a>
-            <!-- Santos poner imagen -->
-            <a href="./index.html">Home</a>
+            <a href="./index.html" class="color_header">Home</a>
         </div>
         <nav class="bloque_header login_register">
             <ul class="ul_login_register">
-                <li class="login"> <a href="./login.html">Login</a> </li>
-                <li class="register"> <a href="./register.html">Register</a></li>
+                <li class="login link-login"> <a href="./login.html" class="color_header">Login</a> </li>
+                <li class="register link-register"> <a href="./register.html" class="color_header">Register</a></li>
+                <li class="bienvenido"></li>
             </ul>
+            <button class="link_logout">Logout</button>
         </nav>
-        <form action="./search-results.html" method="get" class="bloque_header buscador">
-            <label for="search-" class="labelBuscador"> </label>
-            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+        <form action="./search-results.html" method="get" class="bloque_header buscador" id="search-form">
+            <label for="search" class="labelBuscador"> </label>
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
             <button type="submit">Buscar</button>
         </form>
@@ -78,9 +78,10 @@
         <h3>Integrantes: Santos Corti Maderna, Simón Glücksmann, Manuel Zappacosta</h3>
         <p> Todos los derechos reservados Copyright. © 2025</p>
     </footer>
+    <script src="./js/product.js"></script>
+    <script src="./js/saludo.js"></script>
 </body>
 
 
-<script src="./js/product.js"></script>
 
 </html>
