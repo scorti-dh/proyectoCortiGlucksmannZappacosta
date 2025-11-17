@@ -37,7 +37,7 @@ a {
 header {
     width: 100%;
     height: 85px;
-    margin: 0px;
+    margin-bottom: 10px;
 
     color: rgb(0, 0, 0);
     background: #1b9ccf;
@@ -47,7 +47,10 @@ header {
     align-items: center;
     justify-content: center;
     padding-top: 13.44px;
-    border-bottom: #c9c9c9 solid 2px;
+
+    box-shadow: 0px 10px 11px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 11px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 11px -6px rgba(0, 0, 0, 0.75);
 
 }
 
@@ -104,10 +107,8 @@ header {
 
 .ul_login_register {
     width: 100%;
-
     display: flex;
     justify-content: flex-end;
-
 }
 
 .login {
@@ -129,6 +130,8 @@ aside {
     width: 25%;
     padding: 9.6px 38.4px;
     font-size: large;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    
 }
 
 .ul_aside li {
@@ -261,7 +264,7 @@ img {
     font-size: small;
 }
 
-.ssr_p  {
+.ssr_p {
     text-wrap: wrap;
 }
 
@@ -318,10 +321,14 @@ p {
     width: 33%;
 }
 
-.comentarios-product {
+.comentarios_product {
     background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 25px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 25px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px -8px rgba(0, 0, 0, 0.75);
+
 }
 
 .div_stock {
@@ -350,16 +357,22 @@ p {
     margin-right: 10px;
 }
 
-.p_comentarios {
-    text-align: justify;
-}
-
 .div_comentarios {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding: 5px;
+
 }
 
-.comments {
-    margin: 0px 30px;
+.div_comentarios h2 {
+    width: 30%;
+}
+
+.rev_p {
+    width: 60%;
 }
 
 .comprar {
@@ -377,10 +390,12 @@ p {
     color: black;
 }
 
-/* .comprar:hover {
+.comprar:hover {
     background: linear-gradient(36deg, rgba(82, 206, 255, 1) 0%, rgba(166, 0, 255, 1) 100%);
     color: white;
-} */
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+
+}
 
 .main_productos {
     width: 85%;
@@ -489,6 +504,7 @@ p {
     aside {
         width: 17%;
         padding: 4.3px 17.2px;
+
     }
 
     main {
