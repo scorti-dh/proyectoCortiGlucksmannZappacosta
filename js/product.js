@@ -42,19 +42,18 @@ fetch(urlNueva)
             <img class="img_producto" src="${productos.thumbnail}" alt="${productos.title}"></img>
                 <!--Imagen de Producto-->
                 <article class="article_producto">
-                    <h3 id="titulo_detalle">${productos.title}</h3>
                     <p id="brand_detalle">${productos.brand}</p>
+                    <h3 id="titulo_detalle">${productos.title}</h3>
                     <p id="desc_detalle">${productos.description}</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">Precio:${productos.price}</p>
+                    <p class="p_precio">Price: ${productos.price}</p>
                     <a class="comprar" href="product.html">Comprar</a>
-                    <p id="cat_detalle">Categoría:<a href="" id="a_cat_detalle">${productos.category}</a></p>
-                        <div class="div_stock">
-                            <p>Stock: ${productos.availabilityStatus}</p>
-                        </div>
+                    <div id="tag_cat_stock">
+                    <p id="cat_detalle">Categoría: <a href="./category.html?name=${productos.category}">${productos.category}</a></p>
+                    <p>Stock: ${productos.availabilityStatus}</p>
                     <ul id="tags_detalle">
                         <li>Tags:</li>
                     </ul>
+                    </div>
                 </article>
             `;
 

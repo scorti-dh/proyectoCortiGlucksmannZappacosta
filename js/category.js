@@ -39,7 +39,7 @@ fetch(urlNueva)
             <h3 class="h3_productos">${productos[i].title}</h3>
             <p>${productos[i].description}</p>
             <p>${productos[i].price}</p>
-            <a class="boton" href="">Ver Detalle</a>
+            <a class="boton" href="product.html?id=${productos[i].id}">Ver Detalle</a>
                 <section class="section_ssr">
                     <div class="div_ssr">
                         <h4>Stock</h4>
