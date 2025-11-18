@@ -82,9 +82,9 @@ fetch(urlNueva)
         for (let i = 0; i < reviews.length; i++) {
             comentarios.innerHTML += `
             <div class="div_comentarios">
-                    <h3>${reviews[i].reviewerName}</h3><!--Nombre del usuario-->
+                    <h3>${reviews[i].reviewerName}</h3>
+                    <p>${reviews[i].comment}</p>
                     <div class="rev_p">
-                    <p">${reviews[i].comment}</p>
                     <p>Date: ${reviews[i].date}</p>
                     <p>Rating: ${reviews[i].rating}</p>
                     </div>

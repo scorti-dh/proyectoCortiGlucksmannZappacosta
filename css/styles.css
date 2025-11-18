@@ -240,7 +240,7 @@ footer * {
     /* background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%); */
     border-radius: 5% 5%;
     width: 24%;
-    margin: 4px;
+    margin: 4px 4px 65px;
     padding: 12px;
 }
 
@@ -333,6 +333,7 @@ p {
     box-shadow: 0px 0px 25px -8px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 25px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 25px -8px rgba(0, 0, 0, 0.75);
+    height: auto;
 }
 
 .div_stock {
@@ -367,18 +368,32 @@ p {
 .div_comentarios {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     margin-top: 30px;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.250) ;
+    border-radius: 10px 10px;
 }
 
 .div_comentarios h2 {
     width: 30%;
 }
 
+.div_comentarios p {
+    text-align: left;
+    width: 30%;
+}
+
 .rev_p {
-    width: 60%;
+    width: 30%;
+    text-wrap: wrap;
+}
+
+.rev_p p {
+    width: 100%;
+    margin-top: 5px;
 }
 
 .comprar {

@@ -16,23 +16,23 @@
     <header>
         <div class="bloque_header logo_home">
             <a href="./index.html"><img src="./img/logoNexo.png" alt="" class="imagen_logo"></a>
-            <!-- Santos poner imagen -->
-            <a href="./index.html">Home</a>
+            <a href="./index.html" class="color_header">Home</a>
         </div>
         <nav class="bloque_header login_register">
             <ul class="ul_login_register">
-                <li class="login"> <a href="./login.html">Login</a> </li>
-                <li class="register"> <a href="./register.html">Register</a></li>
+                <li class="login link-login"> <a href="./login.html" class="color_header">Login</a> </li>
+                <li class="register link-register"> <a href="./register.html" class="color_header">Register</a></li>
+                <li class="bienvenido"></li>
             </ul>
+            <button class="link_logout">Logout</button>
+
         </nav>
-        <form action="./search-results.html" method="get" class="bloque_header buscador">
-            <label for="search-" class="labelBuscador"> </label>
-            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+        <form action="./search-results.html" method="get" class="bloque_header buscador" id="search-form">
+            <label for="search" class="labelBuscador"> </label>
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
             <button type="submit">Buscar</button>
         </form>
     </header>
-
 
     <div class="willy">
         <aside>
@@ -66,113 +66,7 @@
                 </ul>
             </nav>
         </aside>
-        <main>
-
-            <h2 class="titulos">Resultados de busquedad para "Beauty"</h2>
-            <section class="secciones">
-
-                <article class="article_category">
-                    <img src="./img/rv127702.jpg" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Labial MAC Retro Matte Lipstick Ruby Woo</h3> <!--Titulo de Producto-->
-                    <p>El clásico labial rojo de acabado mate intenso y larga duración.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">45.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/d0bbe2ec-29c8-4934-a376-15704df3e584.59115ee50e4fc24df5336870cbbf7f65.jpg" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Esmalte OPI Infinite Shine Bubble Bath</h3> <!--Titulo de Producto-->
-                    <p>Esmalte de uñas en tono nude rosado, con acabado brillante y fórmula de larga duración.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">12.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/D_Q_NP_603492-MLU77305631774_072024-O.webp" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Iluminador Becca Shimmering Skin Perfector Champagne Pop</h3> <!--Titulo de Producto-->
-                    <p>Polvo iluminador con acabado dorado-champagne, aporta brillo natural y radiante.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">38.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/Moisture-Surge-Intense-72-Hour-Lipid-Replenishing-Hydrator-1.webp" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Crema Hidratante Clinique Moisture Surge 72h</h3> <!--Titulo de Producto-->
-                    <p>Gel-crema ultraligero que hidrata la piel hasta por 72 horas.</p> <!--Descripcion de Producto-->
-                    <p class="p_precio">55.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/D_Q_NP_689416-CBT82229046813_022025-O.webp" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Mascarilla Facial GlamGlow Supermud</h3> <!--Titulo de Producto-->
-                    <p>Mascarilla purificante con carbón activo para limpiar poros y piel grasa.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">42.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/KPLCP8_es_ES_0.avif" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Paleta de Sombras Urban Decay Naked Heat</h3> <!--Titulo de Producto-->
-                    <p>Paleta con 12 tonos cálidos y pigmentados, perfecta para looks intensos y ahumados.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">60.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/51aApYL50L._SL1200_.webp" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Plancha de Pelo GHD Platinum</h3> <!--Titulo de Producto-->
-                    <p>Plancha profesional con tecnología ultra-zone que protege el cabello del calor.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">120.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/christian-dior-christian-dior-j-adore-infinissime-edp-100-ml-m-28074788028452.webp"
-                        alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Perfume Dior Jadore Eau de Parfum 100ml</h3> <!--Titulo de Producto-->
-                    <p>Fragancia floral y sofisticada con notas de jazmín, rosa y ylang-ylang.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">180.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/224732_gel-limpiador-cerave-espumoso-x-236-ml_imagen-1.webp" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Limpiador Facial CeraVe Foaming Cleanser</h3> <!--Titulo de Producto-->
-                    <p>Gel limpiador espumoso para piel normal a grasa, con ácido hialurónico y niacinamida.</p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">22.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-                <article class="article_category">
-                    <img src="./img/tre.webp" alt="">
-                    <!--Imagen de Producto-->
-                    <h3>Cepillo Facial Eléctrico Foreo Luna 3</h3> <!--Titulo de Producto-->
-                    <p>Dispositivo de limpieza facial de silicona con pulsaciones sónicas para una piel suave y limpia.
-                    </p> <!--Descripcion de Producto-->
-                    <p class="p_precio">150.000</p> <!--Precio de Producto-->
-                    <a class="boton" href="product.html">Ver Detalle</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                </article>
-
-            </section>
+        <main id="search_main">
         </main>
     </div>
 
@@ -182,7 +76,6 @@
     </footer>
     <script src="./js/search-result.js"></script>
     <script src="./js/saludo.js"></script>
-
 </body>
 
 </html>
