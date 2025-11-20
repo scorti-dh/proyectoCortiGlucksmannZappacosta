@@ -16,18 +16,18 @@
     <header>
         <div class="bloque_header logo_home">
             <a href="./index.html"><img src="./img/logoNexo.png" alt="" class="imagen_logo"></a>
-            <!-- Santos poner imagen -->
-            <a href="./index.html">Home</a>
+            <a href="./index.html" class="color_header">Home</a>
         </div>
         <nav class="bloque_header login_register">
             <ul class="ul_login_register">
-                <li class="login"> <a href="./login.html">Login</a> </li>
-                <li class="register"> <a href="./register.html">Register</a></li>
+                <li class="login link-login"> <a href="./login.html" class="color_header">Login</a> </li>
+                <li class="register link-register"> <a href="./register.html" class="color_header">Register</a></li>
+                <li class="bienvenido"></li>
             </ul>
+            <button class="link_logout">Logout</button>
         </nav>
-        <form action="./search-results.html" method="get" class="bloque_header buscador">
-            <label for="search-" class="labelBuscador"> </label>
-            <!-- Santos: le saque el buscador del medio xq siento que queda mejor, vamosa tener que pregunatar en clase si se puede-->
+        <form action="./search-results.html" method="get" class="bloque_header buscador" id="search-form">
+            <label for="search" class="labelBuscador"> </label>
             <input id="search" type="text" name="Buscar" value="" class="barra" placeholder="Buscar producto...">
             <button type="submit">Buscar</button>
         </form>
@@ -66,62 +66,10 @@
             </nav>
         </aside>
         <main class="main_productos">
-            <section class="seccion_producto">
-
-                <img src="./img/productoUnoIndex.jpg" alt="Imagen del producto" class="img_producto">
-                <!--Imagen de Producto-->
-                <article class="article_producto">
-                    <h3 id="titulo_detalle"></h3> <!--Titulo de Producto-->
-                    <p id="brand_detalle"></p>
-                    <p id="desc_detalle"></p>
-                    <!--Descripcion de Producto-->
-                    <p class="p_precio">Precio: 999.999</p> <!--Precio de Producto-->
-                    <a class="comprar" href="product.html">Comprar</a>
-                    <!-- Es un link pero despues en css le das un estilo de boton -->
-                    <p id="cat_detalle">Categoría:<a href="" id="a_cat_detalle"></a></p>
-                    <!--Categoría del Producto-->
-                    <div class="div_stock">
-                        <p>En Stock:</p>
-                        <p id="stock_detalle"></p><!--Stock del Producto-->
-                    </div>
-                    <ul id="tags_detalle"><!--Tags del Producto-->
-                        <li>
-                            <p>#Lorem</p>
-                            <p>#ipsum</p>
-                            <p>#Dolor</p>
-                        </li>
-                    </ul>
-                </article>
+            <section class="seccion_producto vendidos">
             </section>
-            <section class="comentarios-product">
-                <h2>COMENTARIOS</h2> <!--Titulo de comentarios-->
-
-                <h2 class="p_comentarios"> Agus Delacuesta</h2><!--Nombre del usuario-->
-                <div class="div_comentarios">
-                    <img src="./img/16046563045736.jpg" alt="">
-                    <p class="p_comentarios comments"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                        exercitationem quibusdam facere ipsa eveniet! Hic illum dolore suscipit. Animi, quis? Inventore
-                        sit tenetur aliquid dolore architecto. Vero, architecto vitae, commodi excepturi quam recusandae
-                        eveniet praesentium quibusdam a facere, et debitis.</p><!--Texto del comentario-->
-                    <div>
-                        <p class="p_comentarios">00/00/0000</p> <!--Fecha del comentario-->
-                        <p>★★☆☆☆</p><!--Rating del Producto-->
-                    </div>
-                </div>
-
-                <h2 class="p_comentarios"> Lorena Checo</h2><!--Nombre del usuario-->
-                <div class="div_comentarios">
-                    <img src="./img/multimedia.normal.a965bb6a7e042c7e.MTM2Nl8yMDAwX25vcm1hbC53ZWJw.webp" alt="">
-                    <p class="p_comentarios comments">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Aspernatur veritatis, illo accusantium quo enim laudantium culpa deleniti amet tempora dolorem
-                        voluptatibus. Aspernatur facere neque veritatis, deleniti cumque eveniet. Ipsum corporis laborum
-                        quibusdam!</p><!--Texto del comentario-->
-                    <div>
-                        <p class="p_comentarios">00/00/0000</p> <!--Fecha del comentario-->
-                        <p>★★☆☆☆</p><!--Rating del Producto-->
-                    </div>
-                </div>
-
+            <section class="comentarios_product">
+                <h2 class="h2_reviews">Reviews</h2> <!--Titulo de comentarios-->
             </section>
 
         </main>
@@ -130,9 +78,10 @@
         <h3>Integrantes: Santos Corti Maderna, Simón Glücksmann, Manuel Zappacosta</h3>
         <p> Todos los derechos reservados Copyright. © 2025</p>
     </footer>
+    <script src="./js/product.js"></script>
+    <script src="./js/saludo.js"></script>
 </body>
 
 
-<script src="./js/product.js"></script>
 
 </html>
