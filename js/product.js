@@ -22,7 +22,7 @@ let queryStringObj = new URLSearchParams(queryString);
 let idName = queryStringObj.get('id');
 console.log(idName);
 
-let urlNueva = 'https://dummyjson.com/products/' + idName;
+let urlNueva = `https://dummyjson.com/products/${idName}`;
 
 console.log(urlNueva);
 
