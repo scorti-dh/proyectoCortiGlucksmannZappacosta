@@ -97,3 +97,23 @@ fetch(urlNueva)
         console.log("Error: " + error);
     })
 
+
+
+
+    let comprobante = document.querySelector('form')
+let busqueda = document.querySelector('input')
+
+comprobante.addEventListener('submit', function (e) {
+    let resultadoBusqueda = busqueda.value
+
+    if (resultadoBusqueda === '') {
+        e.preventDefault()
+        alert('Tenes que escribir algo')
+    } else if (resultadoBusqueda.length < 3) {
+        alert('Tiene que ser mas 3 caracteres')
+        e.preventDefault()
+    } else {
+
+    }
+})
+
