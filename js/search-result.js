@@ -11,8 +11,8 @@ fetch(urlCat)
     .then(function (data) {
         console.log(data)
         for (let i = 0; i < data.length; i++) {
-            aside.innerHTML +=`
-                <li> <a href="./category.html?name=${data[i].name}">${data[i].name}</a></li>
+            aside.innerHTML += `
+                <li> <a href="./category.html?name=${data[i].slug}">${data[i].name}</a></li>
                 `
         }
     })
@@ -23,7 +23,7 @@ let queryStringObj = new URLSearchParams(queryString);
 let searchName = queryStringObj.get('Buscar');
 console.log(searchName);
 
-let urlNueva = 'https://dummyjson.com/products/search?q=' + searchName;
+let urlNueva = `https://dummyjson.com/products/search?q=${searchName}`;
 
 console.log(urlNueva);
 
@@ -33,18 +33,25 @@ fetch(urlNueva)
     })
     .then(function (data) {
         let productos = data.products;
-        let titulo = document.querySelector('#search_main');
+        let titulo = document.querySelector('.search-title');
         console.log(productos);
 
-        titulo.innerHTML += ` 
-            <h2 class="titulos">Results for: ${searchName}</h2>
-            <section class="secciones vendidos"></section>
-        `;
 
         let vendidos = document.querySelector('.vendidos');
-
-        for (let i = 0; i < productos.length; i++) {
-            vendidos.innerHTML += ` 
+        let resultados = "";
+        vendidos.innerHTML = resultados;
+        if(productos.length == 0){
+             titulo.innerHTML += ` 
+            <h2 class="titulos">no se encontro ningun resultado para: ${searchName}</h2>
+            <section class="secciones vendidos"></section>
+        `;
+        }else{
+                 titulo.innerHTML += ` 
+            <h2 class="titulos">resultado para: ${searchName}</h2>
+            <section class="secciones vendidos"></section>
+        `;
+            for (let i = 0; i < productos.length; i++) {
+                resultados += ` 
                 <article class="article_category">
                     <img src="${productos[i].thumbnail}">
                     <h3 class="h3_productos">${productos[i].title}</h3>
@@ -67,12 +74,14 @@ fetch(urlNueva)
                     </section>
                 </article>
             `;
-        }
+            
+        }}
+        vendidos.innerHTML = resultados;
     });
 
-  
-    
-    let comprobante = document.querySelector('form')
+
+
+let comprobante = document.querySelector('form')
 let busqueda = document.querySelector('input')
 
 comprobante.addEventListener('submit', function (e) {

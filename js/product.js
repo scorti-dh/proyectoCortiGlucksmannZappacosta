@@ -11,7 +11,7 @@ fetch(urlCategorias)
         console.log(data)
         for (let i = 0; i < data.length; i++) {
             aside.innerHTML +=
-                `<li> <a href="./category.html?name=${data[i].name}">${data[i].name}</a></li>`
+                `<li> <a href="./category.html?name=${data[i].slug}">${data[i].name}</a></li>`
         }
     })
 
@@ -46,7 +46,6 @@ fetch(urlNueva)
                     <h3 id="titulo_detalle">${productos.title}</h3>
                     <p id="desc_detalle">${productos.description}</p>
                     <p class="p_precio">Price: ${productos.price}</p>
-                    <a class="comprar" href="product.html">Comprar</a>
                     <div id="tag_cat_stock">
                     <p id="cat_detalle">Categoría: <a href="./category.html?name=${productos.category}">${productos.category}</a></p>
                     <p>Stock: ${productos.availabilityStatus}</p>

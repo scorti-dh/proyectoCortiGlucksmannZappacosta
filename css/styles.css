@@ -396,28 +396,7 @@ p {
     margin-top: 5px;
 }
 
-.comprar {
-    display: flex;
-    font-weight: 600;
-    font-size: 28px;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(36deg, rgba(209, 242, 255, 1) 0%, rgba(228, 182, 252, 1) 100%);
-    width: 60%;
-    height: 50px;
-    margin-top: 50px;
-    padding: 5px;
-    border-radius: 10px 10px;
-    color: black;
-}
 
-.comprar:hover {
-    background: linear-gradient(36deg, rgba(82, 206, 255, 1) 0%, rgba(166, 0, 255, 1) 100%);
-    color: white;
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
-
-}
 
 .main_productos {
     width: 85%;

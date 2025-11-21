@@ -127,7 +127,7 @@ fetch(urlCategorias)
         console.log(data)
         for (let i = 0; i < data.length; i++) {
             aside.innerHTML +=
-                `<li> <a href="./category.html?name=${data[i].name}">${data[i].name}</a></li>`
+                `<li> <a href="./category.html?name=${data[i].slug}">${data[i].name}</a></li>`
         }
     })
 
